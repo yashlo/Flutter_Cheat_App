@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221848007842",
+    "project_id": "cheatapp-eee35",
+    "storage_bucket": "cheatapp-eee35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221848007842:android:9606e2b8277da61113d3fb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221848007842-4rlkvf28jppbq9juftuvcg11lfmee1kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKKJ7F4GgNfePFZnU9UafCWT1K137ILNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221848007842-4rlkvf28jppbq9juftuvcg11lfmee1kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
