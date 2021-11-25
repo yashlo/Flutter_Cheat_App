@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "827940809772",
+    "project_id": "cheatapp-eba7a",
+    "storage_bucket": "cheatapp-eba7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827940809772:android:49b313cf161faaac72b589",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827940809772-f1ldfmr2ktkqnvme454sh9jvfr7rpepn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_chat_demo",
+            "certificate_hash": "0a6d6ac08bb347262a44136ecf4545ffa483b169"
+          }
+        },
+        {
+          "client_id": "827940809772-o0s2j8t6loak9asl23ppp43f03fupdhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChqefZ6iZWUE8NkWcd1Z6CRLLbCwja6ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827940809772-o0s2j8t6loak9asl23ppp43f03fupdhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
