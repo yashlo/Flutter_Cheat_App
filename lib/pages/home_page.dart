@@ -25,7 +25,7 @@ class HomePage extends StatefulWidget {
   State createState() => HomePageState();
 }
 
-class HomePageState extends State<HomePage> {
+class HomePageState extends State<HomePage>  {
   HomePageState({Key? key});
 
   final FirebaseMessaging firebaseMessaging = FirebaseMessaging.instance;
@@ -248,7 +248,7 @@ class HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Cheat App",
+          AppConstants.homeTitle,
           style: TextStyle(color: ColorConstants.primaryColor),
         ),
         centerTitle: true,
