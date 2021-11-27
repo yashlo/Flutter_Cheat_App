@@ -8,7 +8,6 @@ import 'package:flutter_chat_demo/providers/auth_provider.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'constants/color_constants.dart';
 import 'pages/pages.dart';
 import 'providers/providers.dart';
