@@ -11,20 +11,18 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'constants/color_constants.dart';
 import 'pages/pages.dart';
 import 'providers/providers.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  runApp(MyApp(prefs: prefs));
+  runApp(MyApp(prefs));
 }
-
 class MyApp extends StatelessWidget {
   final SharedPreferences prefs;
   final FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
   final FirebaseStorage firebaseStorage = FirebaseStorage.instance;
 
-  MyApp({required this.prefs});
+  MyApp(this.prefs);
 
   @override
   Widget build(BuildContext context) {
